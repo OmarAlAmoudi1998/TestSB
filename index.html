@@ -112,7 +112,9 @@
 				
 				
                 <input id="input" type="text" placeholder="اسمك هنا" name="uname" required>
+				<input id="input2" type="text" placeholder="المنصب" name="upos" required>
                 <label for="uname"><b style=font-size:100%>ادخل اسمك</b></label>
+				<label for="upos"><b style=font-size:100%>ادخل منصبك</b></label>
             </p>
         </div>
     </form>
@@ -129,6 +131,7 @@
 	
         function getCard() {
             name = document.getElementById("input").value;
+			pos = document.getElementById("input2").value;
 
 
             if (name == "" || name == " ") {
@@ -136,7 +139,8 @@
             } else {
 			
                 var image_htmlString = '<div><img class="MyImg" src="./Greeting with Name - Theme 2.png">' +
-                    '<h3 class="second" style="left:550px;top:900px" id=\'name\'>' + name + '</h3></div>';
+                    '<h3 class="second" style="left:550px;top:900px" id=\'name\'>' + name + '</h3></div>'; +
+                    '<h3 class="second" style="left:550px;top:1000px" id=\'pos\'>' + pos + '</h3></div>';
                 var tempDiv = document.createElement('div');
                 tempDiv.setAttribute("id", "html-content-holder")
                 document.body.appendChild(tempDiv);
