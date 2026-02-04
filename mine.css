@@ -1,0 +1,53 @@
+  button {
+            font-family: 'Cairo', sans-serif;
+            border-radius: 7px;
+            color: black;
+        }
+
+        input {
+            font-family: 'Cairo', sans-serif;
+            font-size: 10px;
+            text-align: right;
+        }
+
+        body {
+            background-image: url('BG.jpg');
+            background-color: #ffffff;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            font-family: 'Cairo', sans-serif;
+            color: white;
+        }
+
+        h3 {
+            display: block;
+           text-align: justify;
+           direction: rtl;
+            font-family: 'Cairo';
+            font-size: 30px;
+            color: #FFFFFF;
+            position: absolute;
+            /*bottom: 70%;
+            left: 50%;*/
+            
+            /*transform: translate(-50%, -50%);*/
+        }
+
+        .MyImg {
+            width: 1080px;
+            display: block;
+        }
+
+        #html-content-holder {
+            position: relative;
+            display: inline-block;
+        }
+
+        .temp {
+            color: #e9c771;
+        }
+
+        p{
+          color: #123e53;
+        }
